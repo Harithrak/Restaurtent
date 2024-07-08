@@ -1,0 +1,38 @@
+body{
+    font-family:Georgia,'Times New Roman',serif;
+    font-size: 1.5em;
+}
+h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    letter-spacing: .5em;
+    word-spacing: .5em;
+    border:1px solid black;
+    
+
+}
+p{
+    line-height:1.5em;
+    text-align: justify;
+    border-width: 10px;
+    border-style: solid dashed;
+    border-color: black;
+    width:80%;
+    
+    background-color: antiquewhite;
+    padding: 15px;
+    margin:20px auto 20px auto;
+    border:1px solid blue;
+    border-radius: 3px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+
+}
+.paradiv{
+    max-width: 1500px;
+    min-width: 700px;
+    border: 1px solid blue;
+}
+p::first-letter{
+    font-size:2em;
+}
